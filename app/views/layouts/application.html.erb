@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prefixes</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-static">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/" target="ext"><b>Prefixes</b></a>
+          <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+
+
+  <footer>
+    <%= javascript_pack_tag 'form_sender/app' %>
+
+  </footer>
+</html>
+
+
