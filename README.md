@@ -1,24 +1,15 @@
 # README
+Application for searching German prefixes in database
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Installation 
 
-Things you may want to cover:
+* clone this repository
+* install Yarn 
+* `cd <this app folder>`
+* run `bundle install`
+* run `yarn add webpacker`
+* run `yarn add webpacker:react` 
+* run `rails prefix:import` for importing prefixes from csv file placed in `<this_app_path>/lib/prefixes.csv`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It should work after these manipulations. 
+ 
